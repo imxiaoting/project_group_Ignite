@@ -4,7 +4,7 @@ from CashOnHand import cash_deficit,cash_surplus_all
 from Profit_Loss import pl_deficit,pl_surplus_all
 from Overheads import highest_overhead
 
-file_path=Path.home()/'python4biz'/'summary_report.txt'
+file_path=Path.cwd()/'summary_report.txt'
 file_path.touch()
 # print(file_path.exists())
 

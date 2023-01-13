@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv
 
-filepath2=Path.home()/'python4biz'/'py files'/'csv files'/'Profit&Loss1.csv'
+filepath2=Path.home()/'csv_report_Ignite'/'Profit&Loss1.csv'
 
 
 with filepath2.open(mode='r',encoding='utf-8') as file:

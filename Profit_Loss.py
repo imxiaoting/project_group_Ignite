@@ -1,8 +1,9 @@
 from pathlib import Path
 import csv
 
-filepath2=Path.home()/'csv_report_Ignite'/'Profit&Loss1.csv'
-
+filepath2=Path.cwd()/'csv_report_Ignite'/'Profit&Loss1.csv'
+filepath2.touch()
+#print(filepath2.exists())
 
 with filepath2.open(mode='r',encoding='utf-8') as file:
     reader=csv.reader(file)

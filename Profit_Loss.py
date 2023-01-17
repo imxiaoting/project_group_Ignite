@@ -48,4 +48,5 @@ while days < len(converted4):
             one1+=1
             if len(pl_surplus)==len(converted3)-1:
                 pl_surplus_all.append(f'[Net Profit SURPLUS] PROFIT ON EACH DAY IS HIGHER THAN THE PREVIOUS DAY')
+                
 
